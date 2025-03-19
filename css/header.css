@@ -2,6 +2,7 @@
 
 header {
     background-image: url(../img/background_image_3x_f1be2c8513.jpg);
+    filter: saturate(1.5);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

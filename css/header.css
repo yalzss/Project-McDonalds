@@ -1,0 +1,156 @@
+    /*Header Home-page*/
+
+header {
+    background-image: url(../img/background_image_3x_f1be2c8513.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+header > nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+header > nav > a {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:#000;
+    background-color: white;
+    border-radius: 12px;
+    width:115px;
+    height: 40px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+header > nav > a.important-link {
+    width: 200px;
+}
+header > nav > a.start-focus {
+    background-color: #db9d00;
+    transition: background-color 1.5s;
+}
+header > nav:hover > a.start-focus {
+    background-color: white;
+    transition: ease-in-out 0.5s;
+}
+header > nav > a:hover {
+        background-color: #db9d00;
+        transform: translateY(-1px); 
+        transition: transform 0.2s, background-color 0.50s;
+}
+header > .account {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    margin-top: -38px;
+}
+header > .account > a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.589);
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: #db9d00;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    color: #000;
+    border-radius: 5px;
+}
+header > .account > a:hover {
+    background-color: #ffb700;
+}
+header > .menu-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    gap: 5px;
+    font-size: 31px;
+    color: white;
+    font-weight: lighter;
+    gap: 15px;
+    margin-left:20px;
+    margin-top:-30px;
+}
+header > .menu-nav > img {
+    height: 30px;
+}
+header > .options-ask {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: start;
+    gap: 2px;
+    transform: translateY(100px);
+    margin-left: 60px;
+}
+header > .options-ask > h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+header > .options-ask > .button-ask {
+    display: flex;
+    flex-flow: row nowrap;
+    perspective: 500px;
+}
+header > .options-ask > .button-ask > div.button1,
+header > .options-ask > .button-ask > div.button2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: -12px;
+    transition: transform 0.9s;
+}
+header > .options-ask > .button-ask > div.button1 > img,
+header > .options-ask > .button-ask > div.button2 > img {
+    transform: translateX(35px);
+    height: 15px;
+}
+header > .options-ask > .button-ask button {
+    height: 25px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 550;
+    cursor: pointer;
+}
+header > .options-ask > .button-ask > .button1:hover,
+header > .options-ask > .button-ask > .button2:hover {
+    transform: translateZ(20px);
+    transition: transform 0.5s;
+}
+
+    /*Header Cardapio*/
+
+.head-cardapio {
+    height: 200px;
+    background-size: cover;
+}
+
+.head-cardapio > nav > a.important-link {
+    width: 200px;
+    background-color: #db9d00;
+    transition: background-color 1.5s;
+    transform: translateY(-3px);
+}
+.head-cardapio > nav:hover > a.important-link {
+    width: 200px;
+    background-color: #fff;
+    transition: ease-in-out 0.5s;
+}
+/*Header for McDayFeliz*/
+
+.head-mcdayhappy {
+    height: 200px;
+}
+
+

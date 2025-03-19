@@ -1,0 +1,102 @@
+
+footer {
+    margin-top: 100px;
+    height: 400px;
+}
+footer > img {
+    height: 50px;
+    width: auto;
+    margin-left: 30px;
+    transform: translateY(50px);
+}
+
+footer > .info-footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+footer > .info-footer > .box1 {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    transform:translateY(-40px);
+}
+footer > .info-footer > .box2 {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+    transform:translateY(-75px);
+}
+footer > .info-footer > .box1 > a,
+footer > .info-footer > .box2 > a,
+footer > .info-footer > .box3 > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 12px;
+}
+footer > .info-footer > .box1 > a:hover,
+footer > .info-footer > .box2 > a:hover,
+footer > .info-footer > .box3 > a:hover {
+    color: #757575;
+}
+
+footer > .info-footer > .box1 > h2,
+footer > .info-footer > .box2 > h2,
+footer > .info-footer > .box3 > h2 {
+    font-size: 11px;
+}
+footer > .info-footer > .box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 10px;
+    transform:translateY(-75px);
+    margin-right: 10px;
+}
+footer > .info-footer > .box3 > p {
+    font-size: 9px;
+    text-align: center;
+}
+footer > .info-footer > .box3 > h2 {
+    font-size: 12px;
+}
+footer > .info-footer > .box3 > .items-box3 {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 7px;
+    font-size: 15px;
+}
+footer > .info-footer > .box3 > .item-img > img {
+    height: auto;
+    width: 60px;
+}
+footer > hr {
+    width: 95%; 
+    margin: 20px auto; 
+    border-top: 2px solid #919CAC
+}
+footer > .links-diret {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+    transform: translateY(-20px);
+    margin-right: 50px;
+}
+footer > .links-diret > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 9px;
+    font-weight: 500;
+}
+footer > p {
+    color: #000;
+    font-size: 10px;
+    margin-left: 50px;
+    font-weight: 500;
+}

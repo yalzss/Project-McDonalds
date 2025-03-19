@@ -1,0 +1,93 @@
+main {
+    background-image: url(../img/Login-tell.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-left: 100px;
+}
+main > section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    margin-left: 400px;
+
+}
+main > section > .login {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    justify-content: center;
+
+}
+main > section > .login > h1 {
+    font-size: 35px;
+    line-height: 1.2;
+}
+main > section > .login > h5 {
+    margin-top: 10px;
+}
+main > section > .buttons-login {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 20px;
+    gap: 10px;
+
+}
+main > section > .buttons-login > .guest-button {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 25px;
+    font-size: 10px;
+    font-weight: 500;
+    gap: 7px;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+}
+main > section > .buttons-login > .guest-button a {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    color: #000;
+    line-height: 1;
+}
+main > section > .buttons-login > .guest-button a:hover {
+    border-bottom: 1px solid #000;
+    line-height: 1;
+}
+main > section > .buttons-login > .guest-button i {
+    font-size: 9px;
+}
+main > section > .buttons-login > .box-buttonlogin1,
+main > section > .buttons-login > .box-buttonlogin2,
+main > section > .buttons-login > .box-buttonlogin3,
+main > section > .buttons-login > .box-buttonlogin4 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+    border: 1px solid #A3A3A3;
+    height: 35px;
+    width: 300px;
+    font-size: 10px;
+    font-weight: 550;
+    cursor: pointer;
+}
+main > section > .buttons-login > .box-buttonlogin1 > img,
+main > section > .buttons-login > .box-buttonlogin2 > img,
+main > section > .buttons-login > .box-buttonlogin3 > img,
+main > section > .buttons-login > .box-buttonlogin4 > img {
+    height: 12px;
+    margin-left: 10px;
+}
+main > section > .buttons-login > .box-buttonlogin1 > p,
+main > section > .buttons-login > .box-buttonlogin2 > p,
+main > section > .buttons-login > .box-buttonlogin3 > p,
+main > section > .buttons-login > .box-buttonlogin4 > p {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}

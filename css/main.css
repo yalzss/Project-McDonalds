@@ -1,0 +1,672 @@
+/* Main Home-page*/
+main > .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+main > .container > .caixa1 > img,
+main > .container > .caixa2 > img,
+main > .container > .caixa3 > img {
+    width: auto;
+    height: 300px;
+}
+main > .container > .caixa1,
+main > .container > .caixa2,
+main > .container > .caixa3 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+main > .container > .caixa1 > p,
+main > .container > .caixa2 > p,
+main > .container > .caixa3 > p {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 40px;
+
+}
+main > .header-marketing-box {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    height: 500px;
+    background-image: url(../img/featured_Tile_Desktop_e086fa9a29.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+
+}
+main > .header-marketing-box > h1 {
+    text-align: justify;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 200px;
+    color: #292929;
+}
+main > .Marketing-box {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: -102px;
+    overflow: hidden;
+}
+
+main > .Marketing-box > img {
+    height: 300px;
+    flex: 1;
+    max-width: 100%;
+}
+main  .Mc-Mobile {
+    display: flex row;
+    justify-content: center;
+    align-items: center;
+}
+main  .Mc-Mobile > img {
+    width: auto;
+    height: 400px;
+    margin-top: 20px;
+}
+.register-lembret  {
+    background-color: #ffb700;
+    padding: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    gap: 2px;
+    height: 80px;
+}
+.register-lembret > .buttom-re{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: center;
+    height: 30px;
+    width: auto;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+.register-lembret > .buttom-re > a p {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #db9d00;
+    height: 30px;
+    color: #000;
+    border-radius: 5px;
+    width: 130px;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.589);
+}
+.register-lembret > .buttom-re > a {
+    text-decoration: none;
+}
+.register-lembret > .buttom-re > a p:hover {
+    background-color: #ffcb4742;
+}
+/*Main Cardapio*/
+main > .menu-card {
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    perspective:1000px;
+}
+main > .menu-card > .box-card1,
+main > .menu-card > .box-card2,
+main > .menu-card > .box-card3,
+main > .menu-card > .box-card4 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease;
+}
+main > .menu-card > .box-card1 {
+    border-bottom: 2.5px solid #db9d00;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+}
+main > .menu-card:hover > .box-card1 {
+    border: none;
+    transition: border 0.5s ease-in-out;
+} 
+main > .menu-card > .box-card1 > a img,
+main > .menu-card > .box-card2 > a img,
+main > .menu-card > .box-card3 > a img,
+main > .menu-card > .box-card4 > a img {
+    height: 40px;
+    width: auto;
+}
+main > .menu-card > .box-card1 > a,
+main > .menu-card > .box-card2 > a,
+main > .menu-card > .box-card3 > a,
+main > .menu-card > .box-card4 > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 10px;
+    font-weight:530;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    text-rendering: optimizeLegibility
+}
+main > .menu-card > .box-card1:hover,
+main > .menu-card > .box-card2:hover,
+main > .menu-card > .box-card3:hover,
+main > .menu-card > .box-card4:hover {
+    transform: translateZ(25px);
+    backface-visibility: hidden;
+    text-rendering: optimizeLegibility;
+    border-bottom: 2px solid #db9d00;
+}
+main > section > h2 {
+    display: inline;
+    border-bottom: 3px solid #db9d00;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+main > section > .dessert-card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    perspective: 500px;
+    margin-top: 50px;
+}
+main > section > .dessert-card > .box-dessert1,
+main > section > .dessert-card > .box-dessert2,
+main > section > .dessert-card > .box-dessert3,
+main > section > .dessert-card > .box-dessert4,
+main > section > .dessert-card > .box-dessert5,
+main > section > .dessert-card > .box-dessert6,
+main > section > .dessert-card > .box-dessert7,
+main > section > .dessert-card > .box-dessert8,
+main > section > .dessert-card > .box-dessert9,
+main > section > .dessert-card > .box-dessert10,
+main > section > .dessert-card > .box-dessert11,
+main > section > .dessert-card > .box-dessert12,
+main > section > .dessert-card > .box-dessert13,
+main > section > .dessert-card > .box-dessert14,
+main > section > .dessert-card > .box-dessert15,
+main > section > .dessert-card > .box-dessert16,
+main > section > .dessert-card > .box-dessert17,
+main > section > .dessert-card > .box-dessert18,
+main > section > .dessert-card > .box-dessert19,
+main > section > .dessert-card > .box-dessert20,
+main > section > .dessert-card > .box-dessert21,
+main > section > .dessert-card > .box-dessert22,
+main > section > .dessert-card > .box-dessert23 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 500px;
+    border-bottom: 1px solid #ffb700;
+    transition: transform 0.5s;
+}
+main > section > .dessert-card > .box-dessert1 > img,
+main > section > .dessert-card > .box-dessert2 > img,
+main > section > .dessert-card > .box-dessert3 > img,
+main > section > .dessert-card > .box-dessert4 > img,
+main > section > .dessert-card > .box-dessert5 > img,
+main > section > .dessert-card > .box-dessert6 > img,
+main > section > .dessert-card > .box-dessert7 > img,
+main > section > .dessert-card > .box-dessert8 > img,
+main > section > .dessert-card > .box-dessert9 > img,
+main > section > .dessert-card > .box-dessert10 > img,
+main > section > .dessert-card > .box-dessert11 > img,
+main > section > .dessert-card > .box-dessert12 > img,
+main > section > .dessert-card > .box-dessert13 > img,
+main > section > .dessert-card > .box-dessert14 > img,
+main > section > .dessert-card > .box-dessert15 > img,
+main > section > .dessert-card > .box-dessert16 > img,
+main > section > .dessert-card > .box-dessert17 > img,
+main > section > .dessert-card > .box-dessert18 > img,
+main > section > .dessert-card > .box-dessert19 > img,
+main > section > .dessert-card > .box-dessert20 > img,
+main > section > .dessert-card > .box-dessert21 > img,
+main > section > .dessert-card > .box-dessert22 > img,
+main > section > .dessert-card > .box-dessert23 > img {
+    height: 105px;
+    width: auto;
+
+}
+main > section > .dessert-card > .box-dessert1 > p,
+main > section > .dessert-card > .box-dessert2 > p,
+main > section > .dessert-card > .box-dessert3 > p,
+main > section > .dessert-card > .box-dessert4 > p,
+main > section > .dessert-card > .box-dessert5 > p,
+main > section > .dessert-card > .box-dessert6 > p,
+main > section > .dessert-card > .box-dessert7 > p,
+main > section > .dessert-card > .box-dessert8 > p,
+main > section > .dessert-card > .box-dessert9 > p,
+main > section > .dessert-card > .box-dessert10 > p,
+main > section > .dessert-card > .box-dessert11 > p,
+main > section > .dessert-card > .box-dessert12 > p,
+main > section > .dessert-card > .box-dessert13 > p,
+main > section > .dessert-card > .box-dessert14 > p,
+main > section > .dessert-card > .box-dessert15 > p,
+main > section > .dessert-card > .box-dessert16 > p,
+main > section > .dessert-card > .box-dessert17 > p,
+main > section > .dessert-card > .box-dessert18 > p,
+main > section > .dessert-card > .box-dessert19 > p,
+main > section > .dessert-card > .box-dessert20 > p,
+main > section > .dessert-card > .box-dessert21 > p,
+main > section > .dessert-card > .box-dessert22 > p,
+main > section > .dessert-card > .box-dessert23 > p {
+    font-size: 9px;
+    font-weight: bold;
+}
+main > section > .dessert-card > .box-dessert1:hover,
+main > section > .dessert-card > .box-dessert2:hover,
+main > section > .dessert-card > .box-dessert3:hover,
+main > section > .dessert-card > .box-dessert4:hover,
+main > section > .dessert-card > .box-dessert5:hover,
+main > section > .dessert-card > .box-dessert6:hover,
+main > section > .dessert-card > .box-dessert7:hover,
+main > section > .dessert-card > .box-dessert8:hover,
+main > section > .dessert-card > .box-dessert9:hover,
+main > section > .dessert-card > .box-dessert10:hover,
+main > section > .dessert-card > .box-dessert11:hover,
+main > section > .dessert-card > .box-dessert12:hover,
+main > section > .dessert-card > .box-dessert13:hover,
+main > section > .dessert-card > .box-dessert14:hover,
+main > section > .dessert-card > .box-dessert15:hover,
+main > section > .dessert-card > .box-dessert16:hover,
+main > section > .dessert-card > .box-dessert17:hover,
+main > section > .dessert-card > .box-dessert18:hover,
+main > section > .dessert-card > .box-dessert19:hover,
+main > section > .dessert-card > .box-dessert20:hover,
+main > section > .dessert-card > .box-dessert21:hover,
+main > section > .dessert-card > .box-dessert22:hover,
+main > section > .dessert-card > .box-dessert23:hover {
+    transform: translateZ(8px);
+    transition: transform 0.5s;
+}
+
+
+/* Main for Bebidas(Cardapio) */ 
+.main-drinks >  .menu-card > .box-card1 {
+    border: none;
+}
+.main-drinks > .menu-card > .box-card2 {
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid #db9d00;
+    transition: 2.5s border;
+}
+.main-drinks > .menu-card:hover > .box-card2 {
+    border: none;
+}
+.main-drinks > section > h2 {
+    display: inline;
+    margin-left: 30px;
+    border-bottom: 3px solid #db9d00af;
+}
+.main-drinks > section > .drink-card {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 300px;
+    justify-content: center;
+    align-items: center;
+    perspective: 500px;
+}
+.main-drinks > section > .drink-card > .box-drinks1,
+.main-drinks > section > .drink-card > .box-drinks2,
+.main-drinks > section > .drink-card > .box-drinks3,
+.main-drinks > section > .drink-card > .box-drinks4,
+.main-drinks > section > .drink-card > .box-drinks5,
+.main-drinks > section > .drink-card > .box-drinks6,
+.main-drinks > section > .drink-card > .box-drinks7,
+.main-drinks > section > .drink-card > .box-drinks8,
+.main-drinks > section > .drink-card > .box-drinks9,
+.main-drinks > section > .drink-card > .box-drinks10,
+.main-drinks > section > .drink-card > .box-drinks11,
+.main-drinks > section > .drink-card > .box-drinks12,
+.main-drinks > section > .drink-card > .box-drinks13 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid #db9d00;
+    transition: transform 0.7s ease;
+}
+.main-drinks > section > .drink-card > .box-drinks1:hover,
+.main-drinks > section > .drink-card > .box-drinks2:hover,
+.main-drinks > section > .drink-card > .box-drinks3:hover,
+.main-drinks > section > .drink-card > .box-drinks4:hover,
+.main-drinks > section > .drink-card > .box-drinks5:hover,
+.main-drinks > section > .drink-card > .box-drinks6:hover,
+.main-drinks > section > .drink-card > .box-drinks7:hover,
+.main-drinks > section > .drink-card > .box-drinks8:hover,
+.main-drinks > section > .drink-card > .box-drinks9:hover,
+.main-drinks > section > .drink-card > .box-drinks10:hover,
+.main-drinks > section > .drink-card > .box-drinks11:hover,
+.main-drinks > section > .drink-card > .box-drinks12:hover,
+.main-drinks > section > .drink-card > .box-drinks13:hover {
+    transform: translateZ(10px);
+    transition: transform 0.5s;
+}
+.main-drinks > section > .drink-card > .box-drinks1 > img,
+.main-drinks > section > .drink-card > .box-drinks2 > img,
+.main-drinks > section > .drink-card > .box-drinks3 > img,
+.main-drinks > section > .drink-card > .box-drinks4 > img,
+.main-drinks > section > .drink-card > .box-drinks5 > img,
+.main-drinks > section > .drink-card > .box-drinks6 > img,
+.main-drinks > section > .drink-card > .box-drinks7 > img,
+.main-drinks > section > .drink-card > .box-drinks8 > img,
+.main-drinks > section > .drink-card > .box-drinks9 > img,
+.main-drinks > section > .drink-card > .box-drinks10 > img,
+.main-drinks > section > .drink-card > .box-drinks11 > img,
+.main-drinks > section > .drink-card > .box-drinks12 > img,
+.main-drinks > section > .drink-card > .box-drinks13 > img {
+    height: 125px;
+    width: auto;
+}
+.main-drinks > section > .drink-card > .box-drinks13 {
+    margin-top: -200px;
+    margin-bottom: 50px;
+}
+
+/*Main for Lançamentos(Cardapio)*/ 
+
+.main-releases > .menu-card > .box-card1 {
+    border-bottom: none;
+}
+.main-releases > .menu-card > .box-card3 {
+    border-bottom: 1px solid #db9d00;
+    transition: border-bottom 1s ease;
+}
+.main-releases > .menu-card:hover > .box-card3 {
+    border-bottom: none;
+}
+.main-releases > section > .releases-card {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: start;
+    margin-top: 80px;
+    gap: 80px;
+    margin-left: 50px;
+    perspective: 500px;
+}
+.main-releases > section > .releases-card > .box-releases1,
+.main-releases > section > .releases-card > .box-releases2,
+.main-releases > section > .releases-card > .box-releases3 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ffc42dd0;
+    font-weight: 550;
+    transition: transform 0.7s;
+}
+.main-releases > section > .releases-card > .box-releases1 > img,
+.main-releases > section > .releases-card > .box-releases2 > img,
+.main-releases > section > .releases-card > .box-releases3 > img {
+    height: 80px;
+    width: auto;
+}
+.main-releases > section > .releases-card > .box-releases1:hover,
+.main-releases > section > .releases-card > .box-releases2:hover,
+.main-releases > section > .releases-card > .box-releases3:hover {
+    transform: translateZ(10px);
+    transition: transform 0.5s;
+}
+
+
+/* Main for Burger(Cardapio)*/
+.main-burgers > .menu-card > .box-card1 {
+    border-bottom: none;
+}
+.main-burgers > .menu-card > .box-card4 {
+    border-bottom: 1px solid #db9d00;
+    transition: border-bottom 0.7s ease;
+} 
+.main-burgers > .menu-card:hover > .box-card4 {
+    border-bottom: none;
+}
+.main-burgers > section > .burgers-card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    perspective: 500px;
+    font-weight: 550;
+    gap:250px;
+}
+.main-burgers > section > .burgers-card > .box-hamburger1,
+.main-burgers > section > .burgers-card > .box-hamburger2,
+.main-burgers > section > .burgers-card > .box-hamburger3,
+.main-burgers > section > .burgers-card > .box-hamburger4,
+.main-burgers > section > .burgers-card > .box-hamburger5,
+.main-burgers > section > .burgers-card > .box-hamburger6,
+.main-burgers > section > .burgers-card > .box-hamburger7,
+.main-burgers > section > .burgers-card > .box-hamburger8,
+.main-burgers > section > .burgers-card > .box-hamburger9,
+.main-burgers > section > .burgers-card > .box-hamburger10,
+.main-burgers > section > .burgers-card > .box-hamburger11,
+.main-burgers > section > .burgers-card > .box-hamburger12 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.9s;
+    gap: 10px;
+    margin-top: 30px;
+    border-bottom: 1px solid #db9d00;
+    margin-left: 50px;
+}
+.main-burgers > section > .burgers-card > .box-hamburger1 > img,
+.main-burgers > section > .burgers-card > .box-hamburger2 > img,
+.main-burgers > section > .burgers-card > .box-hamburger3 > img,
+.main-burgers > section > .burgers-card > .box-hamburger4 > img,
+.main-burgers > section > .burgers-card > .box-hamburger5 > img,
+.main-burgers > section > .burgers-card > .box-hamburger6 > img,
+.main-burgers > section > .burgers-card > .box-hamburger7 > img,
+.main-burgers > section > .burgers-card > .box-hamburger8 > img,
+.main-burgers > section > .burgers-card > .box-hamburger9 > img,
+.main-burgers > section > .burgers-card > .box-hamburger10 > img,
+.main-burgers > section > .burgers-card > .box-hamburger11 > img,
+.main-burgers > section > .burgers-card > .box-hamburger12 > img {
+    height: 70px;
+    width: auto;
+}
+.main-burgers > section > .burgers-card > .box-hamburger1:hover,
+.main-burgers > section > .burgers-card > .box-hamburger2:hover,
+.main-burgers > section > .burgers-card > .box-hamburger3:hover,
+.main-burgers > section > .burgers-card > .box-hamburger4:hover,
+.main-burgers > section > .burgers-card > .box-hamburger5:hover,
+.main-burgers > section > .burgers-card > .box-hamburger6:hover,
+.main-burgers > section > .burgers-card > .box-hamburger7:hover,
+.main-burgers > section > .burgers-card > .box-hamburger8:hover,
+.main-burgers > section > .burgers-card > .box-hamburger9:hover,
+.main-burgers > section > .burgers-card > .box-hamburger10:hover,
+.main-burgers > section > .burgers-card > .box-hamburger11:hover,
+.main-burgers > section > .burgers-card > .box-hamburger12:hover {
+    transform: translateZ(10px);
+    transition: transform 0.5s;
+}
+.main-burgers > section > .burgers-card > .box-hamburger11,
+.main-burgers > section > .burgers-card > .box-hamburger12 {
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+
+
+/*Main for McDiaFeliz*/
+
+.main-mcdayhappy > .box-marketing {
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.main-mcdayhappy > .box-marketing > h1 {
+    margin-left: 50px;
+    font-size: 60px;
+    color: #292929;
+    padding: -1px;
+    background: linear-gradient(to top, #FFBC0D calc(60% - 10px), transparent 20px);
+    
+}
+.main-mcdayhappy > .box-marketing > img {
+    height: 400px;
+    width: auto;
+}
+.info-McdayHappy {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: start;
+    gap: 1px;
+}
+.info-McdayHappy > img {
+    margin-left: 105px;
+}
+.info-McdayHappy-moba {
+    display: none;
+}
+.info-McdayHappy > .box-info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    font-weight: 500px;
+    margin-left: 25px;
+    gap: 5px;
+}
+.info-McdayHappy > .box-info button {
+    margin-top: 10px;
+    align-self: flex-end;
+    text-align: center;
+    background-color: #ffb700;
+    width: 125px;
+    height: 23px;
+    border: #db9d00 2px solid;
+    border-radius: 2px;
+}
+.info-McdayHappy > .box-info button:hover {
+    background-color: #ffc505;
+}
+.info-McdayHappy > img {
+    height: 190px;
+    width: auto;
+}
+.info-McdayHappy > .box-info p {
+    font-size: 10px;
+}
+.info-McdayHappy > .box-info h2 {
+    color: #292929;
+    font-size: 25px;
+}
+
+.willing-voluntary-moba {
+    display: none;
+}
+
+.willing-voluntary {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: start;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.willing-voluntary > img {
+    height: 250px;
+    margin-left: 25px;
+}
+.willing-voluntary > .box-info2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: start;
+    gap: 5px;
+    margin-top: 70px;
+}
+.willing-voluntary > .box-info2 button {
+    margin-top: 10px;
+    align-self: start;
+    text-align: center;
+    background-color: #ffb700;
+    width: 125px;
+    height: 23px;
+    border: #db9d00 2px solid;
+    border-radius: 2px;
+}
+.willing-voluntary > .box-info2 button:hover {
+    background-color: #ffc505;
+}
+.willing-voluntary > .box-info2 p {
+    font-size: 10px;
+}
+.willing-voluntary > .box-info2 h2 {
+    color: #292929;
+    font-size: 20px;
+}
+.willing-voluntary > .box-info2 > img {
+    height: 300px;
+    width: auto;
+}
+.general-information {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.general-information > .box-geral1,
+.general-information > .box-geral2,
+.general-information > .box-geral3 {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+}
+.general-information > .box-geral1 {
+    margin-left: 15px;
+}
+.general-information > .box-geral1 > img,
+.general-information > .box-geral2 > img,
+.general-information > .box-geral3 > img {
+    width:500px;
+    height:auto;
+}
+.general-information > .box-geral1 > button,
+.general-information > .box-geral2 > button,
+.general-information > .box-geral3 > button {
+    width: 125px;
+    height: 23px;
+    border: #db9d00 2px solid;
+    background-color: #ffb700;
+    border-radius: 2px;
+}
+.general-information > .box-geral1 > h2,
+.general-information > .box-geral2 > h2,
+.general-information > .box-geral3 > h2 {
+    font-size: 20px;
+}
+.general-information > .box-geral1> p,
+.general-information > .box-geral2> p,
+.general-information > .box-geral3> p {
+    font-size: 10px;
+}
+.general-information > .box-geral1 > button:hover,
+.general-information > .box-geral2 > button:hover,
+.general-information > .box-geral3 > button:hover {
+    background-color: #ffc505 ;
+}
